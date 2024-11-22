@@ -1,0 +1,55 @@
+.navbar {
+	margin-top: 35px;
+	margin-left: 35px;
+/* background-color: #000; */
+}
+
+.navbar .navbar-brand {
+	color: #000;
+}
+
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+	color: #D10100;
+}
+
+.navbar .navbar-text {
+	color: #000;
+}
+
+.navbar .navbar-nav .nav-link {
+	color: #000;
+	text-align: center;
+	border-radius: 0.25rem;
+	margin: 0.25em 0.35em;
+	border: 1px solid #D10100;
+	background: rgba(185,184,185, 1);
+	border-radius: 5px;
+	-webkit-box-shadow: 3px 3px 3px 0px rgba(230,1,0,0.75);
+	-moz-box-shadow: 3px 3px 3px 0px rgba(230,1,0,0.75);
+	box-shadow: 3px 3px 3px 0px rgba(230,1,0,0.75);
+	max-width: 100%;
+}
+
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+	color: #fff;
+	border: 1px solid #D10100;
+	background: rgba(230,1,0,0.75);
+	border-radius: 5px;
+
+	-webkit-box-shadow: 3px 3px 3px 0px rgba(185,184,185,0.75);
+	-moz-box-shadow: 3px 3px 3px 0px rgba(185,184,185,0.75);
+	box-shadow: 3px 3px 3px 0px rgba(185,184,185,0.75);
+	max-width: 100%;
+}
+
+/*** ICONO para Menú Celular ***/
+.custom-toggler.navbar-toggler {
+    border-color: #D10100;
+}
+
+.custom-toggler .navbar-toggler-icon {
+	/*background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");*/
+	background-image: url("../assets/img/menu.png")
+}

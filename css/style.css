@@ -1,0 +1,431 @@
+@import 'navbarstyle.css';
+
+body {
+	width: 100%;
+	min-height:100%;
+	padding-top: 30px;
+	color: #000;
+	background: linear-gradient(to right, #383838 0%,#fff 100%); 
+}
+
+li {
+	padding-top: 10px;
+}
+
+.logo-modal {
+	position: fixed; 
+	z-index: 99999999999;
+	width: 100px;
+	height: auto;
+}
+
+.separador {
+	margin-top: 150px; 
+	margin-bottom: 100px;
+}
+
+.separador2 {
+	margin-top: 400px; 
+	margin-bottom: 300px;
+}
+
+.justificado {
+	text-align: justify;
+}
+
+.ventanamodal {
+	z-index: 999999;
+}
+
+.modal-header {
+	color: #D10100;
+	border: 0px;
+	background: linear-gradient(to right, #383838 0%,#fff 100%); 
+}
+
+.modal-body {
+	color: #000;
+	border: 0px;
+	background: linear-gradient(to right, #383838 0%,#fff 100%); 
+}
+
+.modal-footer {
+	color: #000;
+	border: 0px;
+	background: linear-gradient(to right, #383838 0%,#fff 100%); 
+}
+
+.listado1 {
+	/*list-style-image: url('../assets/img/biñeta.png');*/
+}
+
+#divencabezado {
+	/* background-color: #000; */
+	height: 70px; 
+	top:0; 
+	position:fixed; 
+	z-index:99999; 
+	/* background: rgba(4, 148, 24, 0.4); Transparencia */
+}
+
+#divmenu {
+	/* background-color: #000; */
+}
+
+#divlogo {
+	/* background-color: #000; */
+}
+
+#divpaginaweb {
+	width: 100%;
+	min-height:100%;
+}
+
+
+/*** Servicios ***/
+#servicios {
+	/*padding-top: 100px;*/
+}
+
+#divservicio1 {
+	width: 100%; 
+	height: 100%;
+	padding: 10px; 
+	background: #000; 
+	background-image: url(../assets/img/analisisriesgosweb.jpg); 
+	background-size: 100% 100%; 
+	background-position: top; 
+	background-repeat: no-repeat; 
+	padding-top: 200px;
+}
+
+#divservicio2 {
+	width: 100%; 
+	height: 100%;
+	padding: 10px; 
+	background: #000; 
+	background-image: url(../assets/img/controlriesgosweb.jpg); 
+	background-size: 100% 100%; 
+	background-position: top; 
+	background-repeat: no-repeat; 
+	padding-top: 200px;
+}
+
+#divservicio3 {
+	width: 100%; 
+	height: 100%;
+	padding: 10px; 
+	background: #000; 
+	background-image: url(../assets/img/funcionesweb.jpg); 
+	background-size: 100% 100%; 
+	background-position: top; 
+	background-repeat: no-repeat; 
+	padding-top: 200px;
+}
+
+#divservicio4 {
+	width: 100%; 
+	height: 100%;
+	padding: 10px; 
+	background: #000; 
+	background-image: url(../assets/img/politicasweb.jpg); 
+	background-size: 100% 100%; 
+	background-position: top; 
+	background-repeat: no-repeat; 
+	padding-top: 200px;
+}
+
+#divservicio5 {
+	width: 100%; 
+	height: 100%;
+	padding: 10px; 
+	background: #000; 
+	background-image: url(../assets/img/operacionweb.jpg); 
+	background-size: 100% 100%; 
+	background-position: top; 
+	background-repeat: no-repeat; 
+	padding-top: 200px;
+}
+
+#divservicio6 {
+	width: 100%; 
+	height: 100%;
+	padding: 10px; 
+	background: #000; 
+	background-image: url(../assets/img/personalweb.jpg); 
+	background-size: 100% 100%; 
+	background-position: top; 
+	background-repeat: no-repeat; 
+	padding-top: 200px;
+}
+
+
+/*** Nosotros ***/
+#nosotros {
+	/*padding-top: 150px;*/
+}
+
+#divnosotros1 {
+	width: 100%; 
+	height: 100%;
+	padding: 10px; 
+	background: #000; 
+	background-image: url(../assets/img/nosotrosweb.jpg); 
+	background-size: 100% 100%; 
+	background-position: top; 
+	background-repeat: no-repeat; 
+	padding-top: 200px;
+	margin-top: 10px;
+}
+
+#divnosotros2 {
+	width: 100%; 
+	height: 100%;
+	padding: 10px; 
+	background: #000; 
+	background-image: url(../assets/img/misionweb.jpg); 
+	background-size: 100% 100%; 
+	background-position: top; 
+	background-repeat: no-repeat; 
+	padding-top: 200px;
+	margin-top: 10px;
+}
+
+#divnosotros3 {
+	width: 100%; 
+	height: 100%;
+	padding: 10px; 
+	background: #000; 
+	background-image: url(../assets/img/visionweb.jpg); 
+	background-size: 100% 100%; 
+	background-position: top; 
+	background-repeat: no-repeat; 
+	padding-top: 200px;
+	margin-top: 10px;
+}
+
+#divnosotros4 {
+	width: 100%; 
+	height: 100%;
+	padding: 10px; 
+	background: #000; 
+	background-image: url(../assets/img/valoresweb.jpg); 
+	background-size: 100% 100%; 
+	background-position: top; 
+	background-repeat: no-repeat; 
+	padding-top: 200px;
+	margin-top: 10px;
+}
+
+#divnosotros5 {
+	width: 100%; 
+	height: 100%;
+	padding: 10px; 
+	background: #000; 
+	background-image: url(../assets/img/estructuraweb.jpg); 
+	background-size: 100% 100%; 
+	background-position: top; 
+	background-repeat: no-repeat; 
+	padding-top: 200px;
+	margin-top: 10px;
+}
+
+#divnosotros6 {
+	width: 100%; 
+	height: 100%;
+	padding: 10px; 
+	background: #000; 
+	background-image: url(../assets/img/certificadoweb.jpg); 
+	background-size: 100% 100%; 
+	background-position: top; 
+	background-repeat: no-repeat; 
+	padding-top: 200px;
+	margin-top: 10px;
+}
+
+/*** Contacto ***/
+#contacto {
+	/*padding-top: 100px;*/
+}
+
+
+/*** Footer ***/
+#divfooter {
+	background: rgba(185,184,185, 0.5); 
+	color: #000; 
+	bottom: 0; 
+	position: fixed; 
+	z-index: 99999;
+}
+
+
+/*** Botón ***/
+.btn {
+	background: rgba(0,0,0, 0.7);
+	border-radius: 3px;
+	position: relative;
+	display: inline-block;
+	outline: none;
+	color: #fff;
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-weight: 400;
+	text-shadow: 0 0 1px rgba(230,1,00.5);
+	font-size: 16px;
+	-webkit-box-shadow: 3px 3px 3px 0px rgba(230,1,0,0.75);
+	-moz-box-shadow: 3px 3px 3px 0px rgba(230,1,0,0.75);
+	box-shadow: 3px 3px 3px 0px rgba(230,1,0,0.75);
+	max-width: 100%;
+}
+
+.btn-modal {
+	background: rgba(230,1,0,0.75);
+	border-radius: 3px;
+	position: relative;
+	display: inline-block;
+	outline: none;
+	color: #fff;
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-weight: 400;
+	text-shadow: 0 0 1px rgba(0,0,0,0.75);
+	font-size: 16px;
+	-webkit-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 3px 3px 3px 0px rgba(,0,0,0,0.75);
+	box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
+	max-width: 100%;
+}
+
+.btn.btn-noradius {
+	border-radius: 10;
+}
+
+a.btn:focus {
+	outline: 0;
+}
+
+.btn-skin:hover, .btn-skin:focus, .btn-skin:active, .btn-skin.active {
+	/* text-transform: uppercase; */
+	color: #000;
+	background: rgba(185,184,185, 0.6);
+	border-color: #D10100;
+	-webkit-box-shadow: 5px 5px 5px 0px rgba(230,1,0,0.75);
+	-moz-box-shadow: 5px 5px 5px 0px rgba(230,1,0,0.75);
+	box-shadow: 5px 5px 5px 0px rgba(230,1,0,0.75);
+	width: 95%;
+}
+
+.btn-modal:hover, .btn-modal:focus, .btn-modal:active, .btn-modal.active {
+	/* text-transform: uppercase; */
+	color: #000;
+	background: rgba(185,184,185, 0.6);
+	border-color: #D10100;
+	-webkit-box-shadow: 5px 5px 5px 0px rgba(230,1,0,0.75);
+	-moz-box-shadow: 5px 5px 5px 0px rgba(230,1,0,0.75);
+	box-shadow: 5px 5px 5px 0px rgba(230,1,0,0.75);
+}
+
+.btn-success {
+	border-color: #D10100;
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active {
+	color: #fff;
+	font-weight: 600;
+	background: rgba(230,1,0 0.6);
+	border-color: #D10100;
+	-webkit-box-shadow: 5px 5px 5px 0px rgba(230,1,0,0.75);
+	-moz-box-shadow: 5px 5px 5px 0px rgba(230,1,0,0.75);
+	box-shadow: 5px 5px 5px 0px rgba(230,1,0,0.75);
+}
+
+
+.titulo {
+	padding-top: 150px;
+	text-align: left;
+	font:normal 48pt Arial;
+    color:#b9b8b9;
+    text-shadow: 0 1px 0 #D10100,
+               0 2px 0 #D10100,
+               0 3px 0 #D10100,
+               0 4px 0 #D10100,
+               0 5px 0 #D10100,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+.titulo:hover {
+	font:normal 48pt Arial;
+    color:#fff;
+    text-shadow: 0 1px 0 #D10100,
+               0 2px 0 #D10100,
+               0 3px 0 #D10100,
+               0 4px 0 #D10100,
+               0 5px 0 #D10100,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+
+}
+
+.modal-title {
+	font-weight: bold;
+	color: #000;
+}
+
+@media screen and (max-width:600px){
+	body {
+		padding-top: 20px;
+	}
+
+	.separador {
+		margin-top: 50px; 
+		margin-bottom: 100px;
+	}
+
+	.separador2 {
+		margin-top: 10px; 
+		margin-bottom: 5px;
+	}
+
+	.titulo {
+		padding-top: 280px;
+	}
+
+	.logo-modal {
+		position: relative; 
+		z-index: 99999999999;
+		width: 75px;
+		height: auto;
+	}
+}
+
+.animation {
+	animation-name: banner;
+	animation-duration: 3s; 
+	animation-delay: 1s;
+	animation-iteration-count: infinite;
+}
+
+
+@keyframes banner {
+	form {
+		transform: rotate(0deg);
+		}
+	to {
+		transform: rotate(180deg);	
+		}
+
+	0% { 
+	 	transform: scale(0.1); 
+	}
+}
